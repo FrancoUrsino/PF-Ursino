@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planes En Pareja</title>
+  <!-- link animaciones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!--link favicon-->
+  <link rel="shortcut icon" href="img/P.jpg" type="image/x-icon">
+  <!--link css-->
+  <link rel="stylesheet" href="style.css">
+  <!--links fuente-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <!--link font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!--link bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+  <header class="header_container">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Planes en Pareja</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"
+        style="justify-content: flex-end;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/app.html">Aplicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contact.html">Contactanos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                Salidas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pages/lugares.html">Lugares</a></li>
+                <li><a class="dropdown-item" href="pages/house.html">En Casa</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="position-relative">
+
+      <div class="position-absolute top-100 start-20 my-5">
+        <h1 class="header_title animate__animated animate__fadeInLeft px-5 m-sm-1 mt-4 fs-1 fw-bold">LOS MEJORES PLANES PARA PASAR JUNTOS</h1>
+        <a href="pages/contact.html" class="cta animate__animated animate__fadeInLeft mx-5 my-2">Contactanos</a>
+      </div>
+
+    </section>
+
+  </header>
+
+
+  <main>
+
+    <section class="activities_container grid">
+
+      <h2 class="activities_title g-col-4 text-center">¿QUÉ SE PUEDE HACER?</h2>
+      <p class="activities_text g-col-10 text-center">Hay millones de opciones para hacer en un fin de semana, lo escencial es que los planes se amolden a como quieren que sea ese finde o como esté el clima. Desde tardes de manualidades hasta escapadas a lugares alejados para despejar la mente</p>
+
+       <div class="container py-5">
+        <div class="justify-content-evenly row gap-3">
+          <div class="card px-0" style="width: 18rem;">
+            <img src="img/card__lugares.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Lugares y Restaurantes
+              </h5>
+              <p>todo tipo de sitios para pasar el día ademas de restaurantes con las comidas más ricas</p>
+              <a href="pages/lugares.html" class="btn btn-light">Ver Más</a>
+            </div>
+          </div>
+          <div class="card px-0" style="width: 18rem;">
+            <img src="img/header_house.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4">Actividades para hacer en el hogar</h5>
+              <p class="pt-1">Todo tipo de actividades: ver peliculas, crear juegos de mesa hasta manualidades!!</p>
+              <a href="pages/home.html" class="btn btn-light">Ver Más</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+        
+    </section>
+
+    <section class="about_container container mw-100 mh-100 py-3">
+      <div class="w-50 justify-content-center text-center">
+        <div class="about_text">
+          <h2 class="about_title">ACERCA DE MI</h2>
+          <p class="about_descrip ">Que tal!! me presento, me llamo Franco tengo 22 añosy estoy en pareja con una hermosa mujer. Actualmente vivo en Argentina y estoy haciendo la licenciatura de Administrador de Empresas, ademas de hacer varios cursos de programación</p>
+        </div>
+        <div class="about_text">
+          <h2 class="about_SubTitle">COMO SE CREO "PLANES EN PAREJA"</h2>
+          <p class="about_SubDescrip">Como dije anteriormente estoy en pareja y me encargaba de buscar un sitio para visitar el fin de semana. Como se me hacía algo lento entrar a multiples páginas para encontrar el mejor lugar, se me ocurrió armar una propia para recopilar toda la información de los que para nosotros fueron los mejores lugares, así que les dejo nuestro top 10 de restaurantes, sitos y actividades para hacer en casa</p>
+        </div>
+      </div>  
+    </section>
+
+  </main>
+
+  
+  <footer>
+
+    <div class="footer container text-center mt-4">
+      <div class="row py-3">
+        <div class="col-2 fs-5 fw-light">Planes en Pareja</div>
+        <div class="col-6 offset-1 fw-light text-muted">&copy;2022 Franco Ursino|Derechos Reservados</div>
+        <div class="col-2">
+          <a href="https://wa.me/+5491138460917?text=quiero+recibir+más+info" target="_blank" class="footer_icon contact_icon">
+          <img src="img/wpp.svg" alt="whatsapp">
+          </a>
+          <a href="#" class="footer_icon contact_icon">
+          <img src="img/ig.svg" alt="instagram">
+          </a>
+          <a href="mailto:francooursinoo@gmail.com" class="footer_icon contact_icon">
+          <img src="img/gm.svg" alt="gmail">
+          </a>
+          <a href="https://github.com/FrancoUrsino" class="footer_icon contact_icon">
+          <img src="img/gh.svg" alt="github">
+          </a>
+        </div>
+      </div>
+    </div>
+   
+  </footer>
+
+
+
+  <!--link boostrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
