@@ -23,6 +23,26 @@ html{
   color: white;
 }
 
+.navbar__bar a,
+.navbar__bar ul li a{
+  color: #fff;
+}
+.navbar__bar ul li a:hover{
+  color: #fff;
+  background-color: #ffffff54;
+}
+
+
+.active_{
+  text-transform: uppercase;
+  background-color: #ffffff54;
+}
+
+.navbar__bar ul li ul{
+  background-color: #ebebeb00;
+  border-style: none;
+}
+
 /*=========BOTONES=========*/
 
 .cta{
@@ -45,6 +65,10 @@ html{
 @keyframes move-bg {
   to{
     background-position: 400% 0;}
+}
+
+#bodycard a{
+  color: #af8639;
 }
 
 /*==============ACTIVIDADES==============*/
@@ -335,6 +359,13 @@ html{
     display: none;
   }
 
+  .about_info{
+    width: 50%;
+  }
+
+  .header_title{
+    width: 65%;
+  }
 
 }
 

@@ -25,16 +25,16 @@
   <header class="header_container">
 
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+      <div class="container-fluid navbar__bar">
         <a class="navbar-brand" href="#">Planes en Pareja</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown"
+        <div class="collapse navbar-collapse navbar__bar" id="navbarNavDropdown"
         style="justify-content: flex-end;">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active_" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/app.html">Aplicación</a>
@@ -73,13 +73,13 @@
     <section class="activities_container grid">
 
       <h2 class="activities_title g-col-4 text-center">¿QUÉ SE PUEDE HACER?</h2>
-      <p class="activities_text g-col-10 text-center">Hay millones de opciones para hacer en un fin de semana, lo escencial es que los planes se amolden a como quieren que sea ese finde o como esté el clima. Desde tardes de manualidades hasta escapadas a lugares alejados para despejar la mente</p>
+      <p class="activities_text g-col-10 text-center px-3">Hay millones de opciones para hacer en un fin de semana, lo escencial es que los planes se amolden a como quieren que sea ese finde o como esté el clima. Desde tardes de manualidades hasta escapadas a lugares alejados para despejar la mente</p>
 
        <div class="container py-5">
-        <div class="justify-content-evenly row gap-3">
+        <div class="justify-content-evenly row gap-4">
           <div class="card px-0" style="width: 18rem;">
             <img src="img/card__lugares.avif" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body" id="bodycard">
               <h5 class="card-title fs-3">Lugares y Restaurantes
               </h5>
               <p>todo tipo de sitios para pasar el día ademas de restaurantes con las comidas más ricas</p>
@@ -88,7 +88,7 @@
           </div>
           <div class="card px-0" style="width: 18rem;">
             <img src="img/header_house.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body" id="bodycard">
               <h5 class="card-title fs-4">Actividades para hacer en el hogar</h5>
               <p class="pt-1">Todo tipo de actividades: ver peliculas, crear juegos de mesa hasta manualidades!!</p>
               <a href="pages/home.html" class="btn btn-light">Ver Más</a>
@@ -100,7 +100,7 @@
     </section>
 
     <section class="about_container container mw-100 mh-100 py-3">
-      <div class="w-50 justify-content-center text-center">
+      <div class="justify-content-center text-center about_info">
         <div class="about_text">
           <h2 class="about_title">ACERCA DE MI</h2>
           <p class="about_descrip ">Que tal!! me presento, me llamo Franco tengo 22 añosy estoy en pareja con una hermosa mujer. Actualmente vivo en Argentina y estoy haciendo la licenciatura de Administrador de Empresas, ademas de hacer varios cursos de programación</p>
