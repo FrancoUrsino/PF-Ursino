@@ -71,6 +71,10 @@ html{
   color: #af8639;
 }
 
+.btn--{
+  background-color: #ebebeb50;
+}
+
 /*==============ACTIVIDADES==============*/
 
 .activities_container{
@@ -100,6 +104,10 @@ html{
 .footer{
   margin-bottom: 0;
   border-top: 1px solid #af8639;
+}
+
+.footer_logo{
+  color: #af8639;
 }
 
 
@@ -247,7 +255,7 @@ html{
 .lugares__container{
   width: 100%;
   height: 70vh;
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(img/puente.jpg);
+  background: radial-gradient(circle, rgba(199, 138, 25, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(img/puente.jpg);
   clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
   background-size: cover;
   background-position: center;
@@ -279,6 +287,7 @@ html{
   width: auto;
   padding: 10px 5px 5px 5px;
   text-align: center;
+  font-weight: 300;  
 }
 
 .lugares_img{
@@ -294,6 +303,7 @@ html{
 .lugares_item .lugares_link{
   color:#af8639;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .lugares_item a:hover{
@@ -343,6 +353,7 @@ html{
     width: auto;
     padding-top: 10px;
     text-align: justify;
+    margin-right: 25px;
   }
 
   .lugares_img{
