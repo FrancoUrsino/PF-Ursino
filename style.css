@@ -85,6 +85,15 @@ html{
 
 .card{
   padding: 0;
+  overflow: hidden;
+}
+
+.img_card{
+  transition: .5s;
+  object-fit: cover;
+}
+.img_card:hover{
+  transform: scale(1.2);
 }
 
 /*==============ABOUT==============*/
@@ -267,6 +276,7 @@ html{
   justify-content: center;
   padding: 10px 0 60px 0;
   color: #af8639;
+  margin-top: 30px;
 }
 
 .lugares_title{
@@ -291,8 +301,8 @@ html{
 }
 
 .lugares_img{
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 50vh;
 }
 
 .lugares_list{
@@ -368,6 +378,11 @@ html{
 
   .lugares_video{
     display: none;
+  }
+
+  .lugares_img{
+    width: 300px;
+    height: 300px;
   }
 
   .about_info{
