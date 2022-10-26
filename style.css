@@ -119,6 +119,10 @@ html{
   color: #af8639;
 }
 
+.footer_icon{
+  text-decoration: none;
+}
+
 
 /*=======================================*/
 /*=========css de la pag de app==========*/
@@ -133,13 +137,18 @@ html{
   background-position: center;
 }
 
+.app_text,
+.app_text ul li{
+  color: #af8639;
+}
+
 
 /*=================================*/
 /*=======css de contactanos========*/
 /*=================================*/
 
 .body_contact{
-  background-image: radial-gradient(circle, rgba(214, 155, 45, 0.459) 0%, rgba(255, 255, 255, 0.247) 100%), url(img/heeader.avif);
+  background-image: radial-gradient(circle, rgba(238, 169, 42, 0.37) 0%, rgba(255, 255, 255, 0.247) 100%), url(img/heeader.avif);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -387,8 +396,12 @@ html{
 
   .about_info{
     width: 50%;
+    font-weight: 100;
   }
 
+  .about_text{
+    line-height: 2rem;
+  }
   .header_title{
     width: 65%;
   }
