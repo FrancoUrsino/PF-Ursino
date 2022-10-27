@@ -79,6 +79,7 @@ html{
 
 .activities_container{
   color: #af8639;
+  overflow-x: hidden;
 }
 
 /*=========CARTAS=========*/
@@ -106,6 +107,7 @@ html{
   background-position: center;
   background-attachment: fixed;
   color: white;
+  overflow-x: hidden;
 }
 
 /*==============FOOTER===============*/
@@ -397,6 +399,7 @@ html{
   .about_info{
     width: 50%;
     font-weight: 100;
+    overflow-x: hidden;
   }
 
   .about_text{
