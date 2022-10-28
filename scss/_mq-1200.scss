@@ -1,0 +1,40 @@
+@media (min-width: 1200px){
+ 
+  .lugares_container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lugar_container{
+    width: 100%;
+    padding: 50px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .lugares_title{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+
+  .lugares_text{
+    text-align: left;
+  }
+
+  .lugares_map{
+    display: block;
+    padding-top: 60px;
+  }
+
+  .lugares_video{
+    display: block;
+    padding-top: 60px;
+  }
+
+ 
+}

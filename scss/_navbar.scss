@@ -1,0 +1,29 @@
+
+.navbar__bar{
+  a{
+    color: $blanco;
+  }
+  ul{
+
+    li{
+
+      ul{
+        background-color: #ebebeb00;
+        border-style: none;
+      }
+
+      a{
+        color:$blanco;
+        &:hover{
+          color: $blanco;
+          background-color: $blanco2;
+        }
+      }
+    }
+  }
+}
+
+.active_{
+  text-transform: uppercase;
+  background-color: $blanco2;
+}

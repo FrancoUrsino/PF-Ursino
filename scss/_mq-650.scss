@@ -1,0 +1,60 @@
+@media (min-width: 650px){
+
+  .lugar_container{
+    width: 100%;
+    padding: 50px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lugares_title{
+    padding-top: 10px;
+  }
+
+  .lugares_text{
+    width: auto;
+    padding-top: 10px;
+    text-align: justify;
+    margin-right: 25px;
+  }
+
+  .lugares_img{
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+  }
+
+  .lugares_map{
+    display: none;
+  }
+
+  .lugares_video{
+    display: none;
+  }
+
+  .lugares_img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .about_info{
+    width: 50%;
+    font-weight: 100;
+  }
+
+  .about_text{
+    line-height: 2rem;
+  }
+  .header_title{
+    width: 65%;
+  }
+
+  .body_contact{
+    background-image: radial-gradient(circle, rgba(231, 172, 61, 0.26) 0%, rgba(255, 255, 255, 0.247) 100%), url(img/heeader.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+}

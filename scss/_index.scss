@@ -1,0 +1,33 @@
+.activities_container{
+  color: $marron;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.card{
+  padding: 0;
+  overflow: hidden;
+}
+
+.img_card{
+  transition: .5s;
+  object-fit: cover;
+
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+/*==============ABOUT==============*/
+
+.about_container{
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(to right, rgba(242, 255, 240, 0.274), rgba(204, 157, 28, 0.267)), url(../img/back_about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
