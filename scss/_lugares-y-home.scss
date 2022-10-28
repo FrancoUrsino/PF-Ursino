@@ -5,6 +5,8 @@
   padding: 10px 0 60px 0;
   color: #af8639;
   margin-top: 30px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .lugares_title{
@@ -26,7 +28,9 @@
   width: auto;
   padding: 10px 5px 5px 5px;
   text-align: center;
-  font-weight: 300;  
+  font-weight: 300; 
+  overflow-y: hidden;
+  overflow-x: hidden; 
 }
 
 .lugares_img{
