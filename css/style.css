@@ -141,12 +141,22 @@ html {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
-  color: #fff;
+  /*color: $blanco;*/
   letter-spacing: 4px;
   font-size: 16px;
   text-decoration: none;
   overflow: hidden;
   transition: 0.2s;
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.3294117647)) 0 0/400% 100%;
+  animation: move-bg 3s infinite alternate-reverse;
+  background-clip: var(-webkit-background-clip);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
 }
 .btn__neon:hover {
   background: rgba(235, 167, 40, 0.5764705882);
@@ -210,12 +220,22 @@ html {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
-  color: #fff;
+  /*color: $blanco;*/
   letter-spacing: 4px;
   font-size: 16px;
   text-decoration: none;
   overflow: hidden;
   transition: 0.2s;
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.3294117647)) 0 0/400% 100%;
+  animation: move-bg 2s infinite alternate-reverse;
+  background-clip: var(-webkit-background-clip);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
 }
 .btn__neon_2:hover {
   background: rgba(255, 255, 255, 0.7);
@@ -312,6 +332,10 @@ html {
 }
 .app_text ul li {
   color: #af8639;
+}
+
+.app_img {
+  display: none;
 }
 
 .body_contact {
@@ -513,6 +537,9 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .app_img {
+    display: block;
   }
 }
 @media (min-width: 1200px) {
