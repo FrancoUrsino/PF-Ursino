@@ -33,43 +33,40 @@
   background-color: $blanco2;
 }
 
-.form_container{
+.form__btn{
+  height: 45px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: capitalize;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 25px;
+  user-select: none;
+  background: linear-gradient(to right, $blanco, #e4a53075);
+  border: none;
+  color: $blanco;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 
-  .btn{
-    height: 45px;
+  &::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
     width: 100%;
-    font-size: 16px;
-    font-weight: 200;
-    text-transform: capitalize;
-    font-family: inherit;
-    cursor: pointer;
-    border-radius: 25px;
-    user-select: none;
-    background: linear-gradient(to right, $blanco, #e4a53075);
-    border: none;
-    color: $blanco;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+    transition: background-color 0.5s ease;
+    z-index: -1;
+  }  
 
-    &::before{
-      content:'';
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      transition: background-color 0.5s ease;
-      z-index: -1;
-    }  
-  
-    &:hover::before{
-      background: linear-gradient(to right, rgba(247, 244, 244, 0.918), #d69c1d9c) 0 0 / 400% 100%;
-      animation: move-bg 2.5s infinite reverse;
-      @keyframes move-bg {
-        to{
-          background-position: 400% 0;}
-      }
+  &:hover::before{
+    background: linear-gradient(to right, rgba(247, 244, 244, 0.918), #d69c1d9c) 0 0 / 400% 100%;
+    animation: move-bg 2.5s infinite reverse;
+    @keyframes move-bg {
+      to{
+        background-position: 400% 0;}
     }
   }
 }

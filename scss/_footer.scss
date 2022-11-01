@@ -3,12 +3,12 @@
 .footer{
   margin-bottom: 0;
   border-top: 1px solid #af8639;
-}
 
-.footer_logo{
-  color: #af8639;
-}
-
-.footer_icon{
-  text-decoration: none;
+  &__logo{
+    color: #af8639;
+  }
+  
+  &__icon{
+    text-decoration: none;
+  }
 }

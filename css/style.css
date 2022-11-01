@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.header_container {
+.header__container {
   width: 100%;
   height: 70vh;
   background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/heeader.avif);
@@ -18,7 +18,7 @@ html {
   background-position: center;
 }
 
-.app_container {
+.app__container {
   width: 100%;
   height: 70vh;
   background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/app_header.avif);
@@ -27,7 +27,7 @@ html {
   background-position: center;
 }
 
-.lugares__container {
+.lugares__container--header {
   width: 100%;
   height: 70vh;
   background: radial-gradient(circle, rgba(199, 138, 25, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/puente.jpg);
@@ -36,7 +36,7 @@ html {
   background-position: center;
 }
 
-.house_container {
+.house__container {
   width: 100%;
   height: 70vh;
   background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/header_house.jpg);
@@ -45,21 +45,21 @@ html {
   background-position: center;
 }
 
-.header_title {
+.header__title {
   color: #fff;
 }
 
-.navbar__bar a {
+.navbar__nav a {
   color: #fff;
 }
-.navbar__bar ul li ul {
+.navbar__nav ul li ul {
   background-color: rgba(235, 235, 235, 0);
   border-style: none;
 }
-.navbar__bar ul li a {
+.navbar__nav ul li a {
   color: #fff;
 }
-.navbar__bar ul li a:hover {
+.navbar__nav ul li a:hover {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.3294117647);
 }
@@ -100,7 +100,7 @@ html {
   background-color: rgba(255, 255, 255, 0.3294117647);
 }
 
-.form_container .btn {
+.form__btn {
   height: 45px;
   width: 100%;
   font-size: 16px;
@@ -117,7 +117,7 @@ html {
   z-index: 1;
   overflow: hidden;
 }
-.form_container .btn::before {
+.form__btn::before {
   content: "";
   position: absolute;
   left: 0;
@@ -127,7 +127,7 @@ html {
   transition: background-color 0.5s ease;
   z-index: -1;
 }
-.form_container .btn:hover::before {
+.form__btn:hover::before {
   background: linear-gradient(to right, rgba(247, 244, 244, 0.918), rgba(214, 156, 29, 0.6117647059)) 0 0/400% 100%;
   animation: move-bg 2.5s infinite reverse;
 }
@@ -295,7 +295,7 @@ html {
   transition-delay: 0.75s;
 }
 
-.activities_container {
+.activities__container {
   color: #af8639;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -306,39 +306,39 @@ html {
   overflow: hidden;
 }
 
-.img_card {
+.img__card {
   transition: 0.5s;
   object-fit: cover;
 }
-.img_card:hover {
+.img__card:hover {
   transform: scale(1.2);
 }
 
 /*==============ABOUT==============*/
-.about_container {
+.about__container {
   width: auto;
   height: auto;
   background-image: linear-gradient(to right, rgba(242, 255, 240, 0.274), rgba(204, 157, 28, 0.267)), url(../img/back_about.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white;
+  color: #fff;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-.app_text {
+.app__text {
   color: #af8639;
 }
-.app_text ul li {
+.app__text ul li {
   color: #af8639;
 }
 
-.app_img {
+.app__img {
   display: none;
 }
 
-.body_contact {
+.body__contact {
   background-image: radial-gradient(circle, rgba(238, 169, 42, 0.37) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/heeader.avif);
   background-size: cover;
   background-position: center;
@@ -346,15 +346,14 @@ html {
   color: rgb(168, 139, 44);
 }
 
-.form_main {
+.form {
   height: 100vh;
   padding: 35px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.form_container {
+.form__container {
   width: 100%;
   max-width: 450px;
   position: relative;
@@ -363,27 +362,26 @@ html {
   backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-
-.form_container .box {
+.form__box {
   border-color: #fff;
   border: 1px solid var(rgba(180, 180, 180, 0.5411764706));
   padding: 40px 50px;
   border-radius: 20px;
   backdrop-filter: blur;
 }
-.form_container h3 {
+.form__title {
   font-size: 28px;
   text-align: center;
   line-height: 1.2;
   color: #fff;
 }
-.form_container form {
+.form__container--form {
   margin: 25px 0 20px;
 }
-.form_container .input_box {
+.form__box--input {
   margin: 25px;
 }
-.form_container .input_ {
+.form__input {
   display: grid;
   height: 30px;
   width: 100%;
@@ -396,20 +394,15 @@ html {
   font-size: 16px;
   outline: none;
 }
-.form_container .input_::placeholder {
+.form__input::placeholder {
   color: #fff;
 }
-.form_container .input_link {
-  margin-top: 10px;
-  text-align: right;
-}
-
-.form_label {
+.form__label {
   color: #fff;
   padding-bottom: 5px;
 }
 
-.lugar_container {
+.lugar__container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -420,7 +413,7 @@ html {
   overflow-x: hidden;
 }
 
-.lugares_title {
+.lugares__title {
   padding-top: 10px;
   text-align: center;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.4392156863), #d8a23e) 0 0/400% 100%;
@@ -435,7 +428,7 @@ html {
   }
 }
 
-.lugares_text {
+.lugares__text {
   width: auto;
   padding: 10px 5px 5px 5px;
   text-align: center;
@@ -444,37 +437,37 @@ html {
   overflow-x: hidden;
 }
 
-.lugares_img {
+.lugares__img {
   width: 100%;
   height: 50vh;
 }
 
-.lugares_list {
+.lugares__list {
   padding-bottom: 20px;
   list-style: none;
 }
 
-.lugares_item .lugares_link {
+.lugares__item .lugares__link {
   color: #af8639;
   text-decoration: none;
   font-weight: 500;
 }
-.lugares_item .lugares_link:hover {
+.lugares__item .lugares__link:hover {
   color: rgba(194, 194, 194, 0.7176470588);
 }
 
-.lugares_map {
+.lugares__map {
   display: none;
 }
 
 /*========================================*/
 /*============css de "en casa"============*/
 /*========================================*/
-.home_link {
+.home__link {
   padding-top: 5px;
 }
 
-.lugares_video {
+.lugares__video {
   display: none;
 }
 
@@ -482,94 +475,92 @@ html {
   margin-bottom: 0;
   border-top: 1px solid #af8639;
 }
-
-.footer_logo {
+.footer__logo {
   color: #af8639;
 }
-
-.footer_icon {
+.footer__icon {
   text-decoration: none;
 }
 
 @media (min-width: 650px) {
-  .lugar_container {
+  .header__title {
+    width: 65%;
+  }
+  .about__info {
+    width: 50%;
+    font-weight: 100;
+  }
+  .about__text {
+    line-height: 2rem;
+  }
+  .lugar__container {
     width: 100%;
     padding: 50px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .lugares_title {
+  .lugares__title {
     padding-top: 10px;
   }
-  .lugares_text {
+  .lugares__text {
     width: auto;
     padding-top: 10px;
     text-align: justify;
     margin-right: 25px;
   }
-  .lugares_img {
+  .lugares__img {
     display: block;
     margin: auto;
     padding-top: 60px;
   }
-  .lugares_map {
+  .lugares__map {
     display: none;
   }
-  .lugares_video {
+  .lugares__video {
     display: none;
   }
-  .lugares_img {
+  .lugares__img {
     width: 300px;
     height: 300px;
   }
-  .about_info {
-    width: 50%;
-    font-weight: 100;
-  }
-  .about_text {
-    line-height: 2rem;
-  }
-  .header_title {
-    width: 65%;
-  }
-  .body_contact {
+  .body__contact {
     background-image: radial-gradient(circle, rgba(231, 172, 61, 0.26) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/heeader.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  .app_img {
+  .app__img {
     display: block;
   }
 }
 @media (min-width: 1200px) {
-  .lugares_container {
+  .lugares__container {
     width: 100%;
     height: auto;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
   }
-  .lugar_container {
+  .lugar__container {
     width: 100%;
     padding: 50px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
   }
-  .lugares_title {
+  .lugares__title {
     text-align: center;
     padding-bottom: 10px;
     font-weight: 500;
     font-size: 1.6rem;
   }
-  .lugares_text {
+  .lugares__text {
     text-align: left;
   }
-  .lugares_map {
+  .lugares__map {
     display: block;
     padding-top: 60px;
   }
-  .lugares_video {
+  .lugares__video {
     display: block;
     padding-top: 60px;
   }

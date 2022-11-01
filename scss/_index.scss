@@ -1,4 +1,4 @@
-.activities_container{
+.activities__container{
   color: $marron;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.img_card{
+.img__card{
   transition: .5s;
   object-fit: cover;
 
@@ -20,14 +20,14 @@
 
 /*==============ABOUT==============*/
 
-.about_container{
+.about__container{
   width: auto;
   height: auto;
   background-image: linear-gradient(to right, rgba(242, 255, 240, 0.274), rgba(204, 157, 28, 0.267)), url(../img/back_about.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white;
+  color: $blanco;
   overflow-x: hidden;
   overflow-y: hidden;
 }

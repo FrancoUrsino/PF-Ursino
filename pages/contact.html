@@ -18,15 +18,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 </head>
-<body class="body_contact">
+<body class="body__contact">
   <header>
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid navbar__bar">
+      <div class="container-fluid navbar__nav">
         <a class="navbar-brand" href="#">Planes en Pareja</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse navbar__bar" id="navbarNavDropdown" style="justify-content: flex-end;">
+        <div class="collapse navbar-collapse navbar__nav" id="navbarNavDropdown" style="justify-content: flex-end;">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="../index.html">Inicio <i class="bi bi-info"></i></a>
@@ -55,23 +55,23 @@
 
 
   <main>
-    <section class="form_main">
-      <div class="form_container">
-        <div class="box">
-          <h3>CONTACTANOS</h3>
-          <form action="">
-            <div class="input_box">
-              <label for="name" class="form_label">NOMBRE</label>
-              <input type="text" id="name" class="input_">
+    <section class="form">
+      <div class="form__container">
+        <div class="form__box">
+          <h3 class="form__title">CONTACTANOS</h3>
+          <form action="" class="form__container--form">
+            <div class="form__box--input">
+              <label for="name" class="form__label">NOMBRE</label>
+              <input type="text" id="name" class="form__input">
             </div>
-            <div class="input_box">
-              <label for="email" class="form_label">EMAIL</label>
-              <input type="email" id="email" class="input_">
+            <div class="form__box--input">
+              <label for="email" class="form__label">EMAIL</label>
+              <input type="email" id="email" class="form__input">
             </div>
-            <div class="input_box">
-              <textarea placeholder="deja aca tu mensaje" class="input_"></textarea>
+            <div class="form__box--input">
+              <textarea placeholder="deja aca tu mensaje" class="form__input"></textarea>
             </div>
-            <button type="submit" class="btn">enviar</button>
+            <button type="submit" class="form__btn">enviar</button>
           </form>
         </div>
       </div>
@@ -83,19 +83,19 @@
 
     <div class="footer container text-center mt-4">
       <div class="row py-3">
-        <div class="col-2 fs-5 fw-light footer_logo">Planes en Pareja</div>
+        <div class="col-2 fs-5 fw-light footer__logo">Planes en Pareja</div>
         <div class="col-6 offset-1 fw-light text-muted">&copy;2022 Franco Ursino|Derechos Reservados</div>
         <div class="col-2">
-          <a href="https://wa.me/+5491138460917?text=quiero+recibir+más+info" target="_blank" class="footer_icon contact_icon">
+          <a href="https://wa.me/+5491138460917?text=quiero+recibir+más+info" target="_blank" class="footer__icon">
           <img src="../img/wpp.svg" alt="whatsapp">
           </a>
-          <a href="#" class="footer_icon contact_icon">
+          <a href="#" class="footer__icon">
           <img src="../img/ig.svg" alt="instagram">
           </a>
-          <a href="mailto:francooursinoo@gmail.com" class="footer_icon contact_icon">
+          <a href="mailto:francooursinoo@gmail.com" class="footer__icon">
           <img src="../img/gm.svg" alt="gmail">
           </a>
-          <a href="https://github.com/FrancoUrsino" class="footer_icon contact_icon">
+          <a href="https://github.com/FrancoUrsino" class="footer__icon">
           <img src="../img/gh.svg" alt="github">
           </a>
         </div>

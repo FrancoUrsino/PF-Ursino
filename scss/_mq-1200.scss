@@ -1,6 +1,6 @@
 @media (min-width: 1200px){
  
-  .lugares_container{
+  .lugares__container{
     width: 100%;
     height: auto;
     margin-bottom: 30px;
@@ -8,30 +8,30 @@
     flex-direction: column;
   }
 
-  .lugar_container{
+  .lugar__container{
     width: 100%;
     padding: 50px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
   }
 
-  .lugares_title{
+  .lugares__title{
     text-align: center;
     padding-bottom: 10px;
     font-weight: 500;
     font-size: 1.6rem;
   }
 
-  .lugares_text{
+  .lugares__text{
     text-align: left;
   }
 
-  .lugares_map{
+  .lugares__map{
     display: block;
     padding-top: 60px;
   }
 
-  .lugares_video{
+  .lugares__video{
     display: block;
     padding-top: 60px;
   }
