@@ -49,6 +49,12 @@ html {
   color: #fff;
 }
 
+.navbar__nav .navbar__logo {
+  color: #fff;
+}
+.navbar__nav .navbar__logo:hover {
+  color: #fff;
+}
 .navbar__nav a {
   color: #fff;
 }
@@ -57,6 +63,9 @@ html {
   border-style: none;
 }
 .navbar__nav ul li a {
+  color: #fff;
+}
+.navbar__nav ul li a:focus {
   color: #fff;
 }
 .navbar__nav ul li a:hover {

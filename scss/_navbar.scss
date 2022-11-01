@@ -1,5 +1,15 @@
 
+
 .navbar__nav{
+
+  .navbar__logo{
+    color:$blanco;
+
+    &:hover{
+      color: $blanco;
+    }
+  }
+  
   a{
     color: $blanco;
   }
@@ -14,6 +24,10 @@
 
       a{
         color:$blanco;
+        &:focus{
+          color: $blanco;
+        }
+
         &:hover{
           color: $blanco;
           background-color: $blanco2;
@@ -27,3 +41,4 @@
   text-transform: uppercase;
   background-color: $blanco2;
 }
+
