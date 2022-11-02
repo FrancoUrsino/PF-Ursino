@@ -1,6 +1,20 @@
 $blanco: #fff;
 $blanco2: #ffffff54;
 $marron: #af8639;
+$gradient: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%);
+$width: 100%;
+$heigth: 70vh;
+$clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+$bg-position: center;
+
+
+
+@mixin header( $width, $heigth, $bg-position, $clip-path){
+  width: $width;
+  height: $heigth;
+  background-position: $bg-position;
+  clip-path: $clip-path;
+}
 
 *{
   margin: 0;

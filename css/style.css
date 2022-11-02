@@ -12,37 +12,37 @@ html {
 .header__container {
   width: 100%;
   height: 70vh;
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/heeader.avif);
-  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background-size: cover;
   background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/heeader.avif);
+  background-size: cover;
 }
 
 .app__container {
   width: 100%;
   height: 70vh;
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/app_header.avif);
-  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background-size: cover;
   background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/app_header.avif);
+  background-size: cover;
 }
 
 .lugares__container--header {
   width: 100%;
   height: 70vh;
-  background: radial-gradient(circle, rgba(199, 138, 25, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/puente.jpg);
-  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background-size: cover;
   background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/puente.jpg);
+  background-size: cover;
 }
 
 .house__container {
   width: 100%;
   height: 70vh;
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/header_house.jpg);
-  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background-size: cover;
   background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/header_house.jpg);
+  background-size: cover;
 }
 
 .header__title {
