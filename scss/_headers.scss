@@ -1,24 +1,28 @@
 .header__container{
-  @include header( $width, $heigth, $bg-position, $clip-path);
+  @include header( $width, $heigth, $clip-path);
   background: $gradient, url(../img/heeader.avif);
   background-size: cover;
+  background-position: center;
 }
 
 .app__container{
-  @include header( $width, $heigth, $bg-position, $clip-path);
+  @include header( $width, $heigth, $clip-path);
   background: $gradient, url(../img/app_header.avif);
   background-size: cover;
+  background-position: center;
 }
 .lugares__container--header{
-  @include header( $width, $heigth, $bg-position, $clip-path);
+  @include header( $width, $heigth, $clip-path);
   background: $gradient, url(../img/puente.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .house__container{
-  @include header( $width, $heigth, $bg-position, $clip-path);
+  @include header( $width, $heigth, $clip-path);
   background: $gradient, url(../img/header_house.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .header__title{
