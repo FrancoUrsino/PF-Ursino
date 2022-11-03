@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FrancoUrsino/Pre-Entrega-2-Ursino/issues"
   },
-  "homepage": "https://github.com/FrancoUrsino/Pre-Entrega-2-Ursino#readme"
+  "homepage": "https://github.com/FrancoUrsino/Pre-Entrega-2-Ursino#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }

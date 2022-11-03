@@ -1,3 +1,14 @@
+.section__title{
+  display: flex;
+  color: $marron;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 600;
+  align-items: center;
+  padding: 5px;
+  letter-spacing: 10px;
+}
+
 .lugar__container{
   display: flex;
   flex-flow: row wrap;

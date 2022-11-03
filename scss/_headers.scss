@@ -1,13 +1,13 @@
 .header__container{
   @include header( $width, $heigth, $clip-path);
-  background: $gradient, url(../img/heeader.avif);
+  background: $gradient, url(../img/header_index.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .app__container{
   @include header( $width, $heigth, $clip-path);
-  background: $gradient, url(../img/app_header.avif);
+  background: $gradient, url(../img/app_header.jpg);
   background-size: cover;
   background-position: center;
 }

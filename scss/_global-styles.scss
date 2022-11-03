@@ -6,8 +6,6 @@ $width: 100%;
 $heigth: 70vh;
 $clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
 
-
-
 @mixin header( $width, $heigth, $clip-path){
   width: $width;
   height: $heigth;
