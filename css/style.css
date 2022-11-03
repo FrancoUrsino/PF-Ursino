@@ -410,6 +410,18 @@ html {
   color: #fff;
   padding-bottom: 5px;
 }
+.form__checks {
+  font-size: 13px;
+  align-items: flex-start;
+  font-weight: 300;
+}
+.form__checks a {
+  color: #af8639;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px;
+}
+.form__checks a:hover {
+  color: rgba(255, 255, 255, 0.3294117647);
+}
 
 .section__title {
   display: flex;

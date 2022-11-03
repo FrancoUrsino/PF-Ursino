@@ -68,4 +68,19 @@
     color: $blanco;
     padding-bottom: 5px;
   }
+
+  &__checks{
+    font-size: 13px;
+    align-items: flex-start;
+    font-weight: 300;
+
+    a{
+      color: $marron;
+      text-shadow: rgba(0, 0, 0, .3) 1px 1px;
+
+      &:hover{
+        color: $blanco2;
+      }
+    }
+  }
 }
