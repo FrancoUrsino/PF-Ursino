@@ -1,3 +1,5 @@
+@use 'variables';
+
 .header__container{
   @include header( $width, $heigth, $clip-path);
   background: $gradient, url(../img/header_index.jpg);
