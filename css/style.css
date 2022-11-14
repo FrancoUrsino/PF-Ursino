@@ -520,8 +520,15 @@ html {
   justify-content: space-between;
   margin: 30px 0;
 }
-.title a {
+.title__link {
   font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.title__link:hover {
+  letter-spacing: 0.3rem;
+  color: #fff;
 }
 
 .TimeLine {
@@ -568,11 +575,6 @@ html {
   line-height: 0.9rem;
   font-weight: 300;
 }
-.TimeLine__text .TimeLine__link {
-  text-decoration: none;
-  font-weight: 200;
-  color: #705925;
-}
 .TimeLine::after {
   content: "";
   position: absolute;
@@ -585,6 +587,14 @@ html {
 }
 .TimeLine .now {
   background-color: #fff;
+}
+.TimeLine__link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #e8cc8f;
+}
+.TimeLine__link:hover {
+  color: rgba(133, 125, 125, 0.156);
 }
 
 .TimeLine__circle--left, .TimeLine__circle--right {
@@ -703,8 +713,9 @@ html {
   .title {
     font-size: 5.3rem;
   }
-  .title a {
+  .title__link {
     font-size: 1rem;
+    color: #fff;
   }
 }
 @media (min-width: 1200px) {

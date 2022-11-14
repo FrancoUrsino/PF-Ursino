@@ -122,8 +122,9 @@
   .title{
     font-size: 5.3rem;
 
-    a{
+    &__link{
       font-size: 1rem;
+      color: $blanco;
     }
   }
 

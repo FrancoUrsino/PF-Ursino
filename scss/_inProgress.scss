@@ -15,8 +15,16 @@
   justify-content: space-between;
   margin: 30px 0;
 
-  a{
+  &__link{
     font-size: 2rem;
+    color: $blanco;
+    text-decoration: none;
+    transition: .6s ease;
+
+    &:hover{
+      letter-spacing: .3rem;
+      color: $blanco;
+    }
   }
 }
 
@@ -69,12 +77,6 @@
   &__text{
     line-height: .9rem;
     font-weight: 300;
-
-    .TimeLine__link{
-      text-decoration: none;
-      font-weight: 200;
-      color: #705925;
-    }
   }
 
   &::after{
@@ -91,6 +93,16 @@
 
   .now{
     background-color: $blanco;
+  }
+
+  &__link{
+    text-decoration: none;
+    font-weight: 400;
+    color: #e8cc8f;
+
+    &:hover{
+      color: rgba(133, 125, 125, 0.156);
+    }
   }
 }
 
