@@ -61,5 +61,70 @@
     display: block;
   }
 
+  .TimeLine{
+    overflow: 0;
+  }
+
+  .TimeLine::after{
+    left: 50%;
+  }
+
+  .TimeLine__container{
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .TimeLine__circle{
+    display: none;
+  }
+
+  .left{
+    left: 0;
+
+    .TimeLine__circle--left{
+      display: inline-block;
+      background-color: white;
+      padding: 5px;
+      color: white;
+      position: absolute;
+      right: -20px;
+      width: 40px;
+      height: 40px;
+      z-index: 10;
+      top: 30px;
+      border-radius: 50%;
+    }
+  }
+  
+  
+  .right{
+    left:50%;
+
+    .TimeLine__circle--right{
+      display: inline-block;
+      background-color: white;
+      padding: 5px;
+      color: white;
+      position: absolute;
+      left: -20px;
+      width: 40px;
+      height: 40px;
+      z-index: 10;
+      top: 32px;
+      border-radius: 50%;
+    }
+  }
+
+  .TimeLine__title{
+    font-size: 1.6rem;
+  }
+
+  .title{
+    font-size: 5.3rem;
+
+    a{
+      font-size: 1rem;
+    }
+  }
 
 }

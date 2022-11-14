@@ -13,7 +13,7 @@ html {
   width: 100%;
   height: 70vh;
   clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/header_index.jpg);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.247) 0%, rgba(214, 155, 45, 0.45) 100%), url(../img/header_index.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -503,6 +503,94 @@ html {
   display: none;
 }
 
+.bg {
+  background: rgba(208, 154, 30, 0.5215686275);
+  background-size: cover;
+  background-position: 40%;
+}
+
+.title {
+  width: 95%;
+  font-weight: 500;
+  font-size: 4rem;
+  font-style: oblique;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.title a {
+  font-size: 2rem;
+}
+
+.TimeLine {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #af8639;
+}
+.TimeLine__container {
+  padding: 10px 50px;
+  position: relative;
+  width: 85%;
+  margin-left: 30px;
+}
+.TimeLine__container:last-child {
+  margin-bottom: 50px;
+}
+.TimeLine__circle {
+  background-color: white;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  top: 32px;
+  border-radius: 50%;
+}
+.TimeLine__info {
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.3294117647);
+  position: relative;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.TimeLine__title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 500;
+  justify-items: center;
+}
+.TimeLine__text {
+  line-height: 0.9rem;
+  font-weight: 300;
+}
+.TimeLine__text .TimeLine__link {
+  text-decoration: none;
+  font-weight: 200;
+  color: #705925;
+}
+.TimeLine::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 31px;
+  margin-left: -3px;
+}
+.TimeLine .now {
+  background-color: #fff;
+}
+
+.TimeLine__circle--left, .TimeLine__circle--right {
+  display: none;
+}
+
 .footer {
   margin-bottom: 0;
   border-top: 1px solid #af8639;
@@ -563,6 +651,60 @@ html {
   }
   .app__img {
     display: block;
+  }
+  .TimeLine {
+    overflow: 0;
+  }
+  .TimeLine::after {
+    left: 50%;
+  }
+  .TimeLine__container {
+    width: 50%;
+    margin-left: 0;
+  }
+  .TimeLine__circle {
+    display: none;
+  }
+  .left {
+    left: 0;
+  }
+  .left .TimeLine__circle--left {
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    top: 30px;
+    border-radius: 50%;
+  }
+  .right {
+    left: 50%;
+  }
+  .right .TimeLine__circle--right {
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    top: 32px;
+    border-radius: 50%;
+  }
+  .TimeLine__title {
+    font-size: 1.6rem;
+  }
+  .title {
+    font-size: 5.3rem;
+  }
+  .title a {
+    font-size: 1rem;
   }
 }
 @media (min-width: 1200px) {

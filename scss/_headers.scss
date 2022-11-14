@@ -2,7 +2,7 @@
 
 .header__container{
   @include header( $width, $heigth, $clip-path);
-  background: $gradient, url(../img/header_index.jpg);
+  background: $gradient-reverse, url(../img/header_index.jpg);
   background-size: cover;
   background-position: center;
 }
