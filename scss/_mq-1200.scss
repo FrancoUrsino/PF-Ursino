@@ -1,6 +1,6 @@
 @media (min-width: 1200px){
  
-  .lugares__container{
+  .lugares{
     width: 100%;
     height: auto;
     margin-bottom: 30px;
@@ -8,7 +8,7 @@
     flex-direction: column;
   }
 
-  .lugar__container{
+  .lugares__container{
     width: 100%;
     padding: 50px 0 0 0;
     display: grid;

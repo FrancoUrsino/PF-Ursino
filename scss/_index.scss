@@ -1,4 +1,4 @@
-.activities__container{
+.activities{
   color: $marron;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -20,7 +20,7 @@
 
 /*==============ABOUT==============*/
 
-.about__container{
+.about{
   width: auto;
   height: auto;
   background-image: linear-gradient(to right, rgba(242, 255, 240, 0.274), rgba(204, 157, 28, 0.267)), url(../img/back_about.jpg);

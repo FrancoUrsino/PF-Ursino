@@ -13,7 +13,7 @@ html {
   width: 100%;
   height: 70vh;
   clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.247) 0%, rgba(214, 155, 45, 0.45) 100%), url(../img/header_index.jpg);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.247) 0%, rgba(147, 107, 32, 0.4509803922) 100%), url(../img/header_index.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -22,7 +22,7 @@ html {
   width: 100%;
   height: 70vh;
   clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/app_header.jpg);
+  background: radial-gradient(circle, rgba(147, 107, 32, 0.4509803922) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/app_header.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -31,7 +31,7 @@ html {
   width: 100%;
   height: 70vh;
   clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/puente.jpg);
+  background: radial-gradient(circle, rgba(147, 107, 32, 0.4509803922) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/puente.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -40,7 +40,7 @@ html {
   width: 100%;
   height: 70vh;
   clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
-  background: radial-gradient(circle, rgba(214, 155, 45, 0.45) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/header_house.jpg);
+  background: radial-gradient(circle, rgba(147, 107, 32, 0.4509803922) 0%, rgba(255, 255, 255, 0.247) 100%), url(../img/header_house.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -304,7 +304,7 @@ html {
   transition-delay: 0.75s;
 }
 
-.activities__container {
+.activities {
   color: #af8639;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -324,7 +324,7 @@ html {
 }
 
 /*==============ABOUT==============*/
-.about__container {
+.about {
   width: auto;
   height: auto;
   background-image: linear-gradient(to right, rgba(242, 255, 240, 0.274), rgba(204, 157, 28, 0.267)), url(../img/back_about.jpg);
@@ -434,7 +434,7 @@ html {
   letter-spacing: 10px;
 }
 
-.lugar__container {
+.lugares__container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -623,7 +623,7 @@ html {
   .about__text {
     line-height: 2rem;
   }
-  .lugar__container {
+  .lugares__container {
     width: 100%;
     padding: 50px 0 0 0;
     display: grid;
@@ -719,14 +719,14 @@ html {
   }
 }
 @media (min-width: 1200px) {
-  .lugares__container {
+  .lugares {
     width: 100%;
     height: auto;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
   }
-  .lugar__container {
+  .lugares__container {
     width: 100%;
     padding: 50px 0 0 0;
     display: grid;
