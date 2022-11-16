@@ -36,5 +36,8 @@
     padding-top: 60px;
   }
 
+  .sites__cards{
+    grid-template-columns: repeat(3, 1fr);
+  }
  
 }

@@ -94,6 +94,7 @@
       top: 30px;
       border-radius: 50%;
     }
+
   }
   
   
@@ -126,6 +127,10 @@
       font-size: 1rem;
       color: $blanco;
     }
+  }
+
+  .sites__cards{
+    grid-template-columns: repeat(2, 1fr);
   }
 
 }
