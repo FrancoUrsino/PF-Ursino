@@ -93,7 +93,7 @@
   row-gap: 2em;
 }
 
-.card{
+.card__sites{
   color: $blanco;
   
   padding: 2rem;
@@ -106,12 +106,12 @@
     transform: scale(1.05);
   }
 
-  &__info{
+  .card__info--sites{
     padding: 0 1.5rem;
     background: $gradient-reverse;
   }
 
-  &__title{
+  .card__title--sites{
     letter-spacing: .2rem;
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -120,7 +120,7 @@
     text-align: center;
   }
 
-  &__text{
+  .card__text--sites{
     color:$blanco;
     text-align: center;
     
@@ -167,11 +167,11 @@
 }
 
 @media (hover) {
-  .card__info{  
-  transform: translateY(60%);
+  .card__info--sites{  
+  transform: translateY(80%);
   transition: transform 350ms ease;  
 }
-  .card:hover .card__info{
+  .card__sites:hover .card__info--sites{
   transform: translateY(0);
   transition-delay: 500ms
 }

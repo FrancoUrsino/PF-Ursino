@@ -514,7 +514,7 @@ html {
   row-gap: 2em;
 }
 
-.card {
+.card__sites {
   color: #fff;
   padding: 2rem;
   max-width: 300px;
@@ -522,14 +522,14 @@ html {
   overflow: hidden;
   transition: transform 500ms ease;
 }
-.card:hover {
+.card__sites:hover {
   transform: scale(1.05);
 }
-.card__info {
+.card__sites .card__info--sites {
   padding: 0 1.5rem;
   background: radial-gradient(circle, rgba(255, 255, 255, 0.247) 0%, rgba(147, 107, 32, 0.4509803922) 100%);
 }
-.card__title {
+.card__sites .card__title--sites {
   letter-spacing: 0.2rem;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -537,7 +537,7 @@ html {
   margin: 35px 0;
   text-align: center;
 }
-.card__text {
+.card__sites .card__text--sites {
   color: #fff;
   text-align: center;
 }
@@ -582,11 +582,11 @@ html {
 }
 
 @media (hover) {
-  .card__info {
-    transform: translateY(60%);
+  .card__info--sites {
+    transform: translateY(80%);
     transition: transform 350ms ease;
   }
-  .card:hover .card__info {
+  .card__sites:hover .card__info--sites {
     transform: translateY(0);
     transition-delay: 500ms;
   }
